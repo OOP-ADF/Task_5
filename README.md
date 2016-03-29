@@ -79,7 +79,7 @@ Buatlah program java Aplikasi Music Player sebagai berikut
 ![11] (/asset/11.JPG) <br>
 * Komponen yang ada : 
  * listMusic : JList 
- * txFieldPlaying : JTextField
+ * txFieldPlaying : JTextField, set Editable = false
  * btnAdd, btnDelete, btnPrev, btnPlay, btnStop, btnNext
 * hapus main method (psvm) di dalam GUI
 * tambahkan method getter objek untuk mengembalikan setiap objek button<br>
