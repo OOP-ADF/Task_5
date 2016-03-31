@@ -9,13 +9,8 @@ package musicplayer;
  *
  * @author ASUS
  */
-public class MusicPlayer {
-
-    /**
-     * @param args the command line arguments
-     */
+public class Driver {
     public static void main(String[] args) {
-        // TODO code application logic here
+        Controller con = new Controller();
     }
-    
 }
