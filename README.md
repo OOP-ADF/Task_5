@@ -75,7 +75,7 @@ Buatlah program java Aplikasi Music Player sebagai berikut
 	![10] (/asset/10.JPG) <br>
 
 ### 2. PlayerGui.java
-* Buatlah class JForm PlayerGui.java dengan tampilan sebagai berikut <br>
+* Buatlah class JFrame PlayerGui.java dengan tampilan sebagai berikut <br>
 ![11] (/asset/11.JPG) <br>
 * Komponen yang ada : 
  * listMusic : JList 
