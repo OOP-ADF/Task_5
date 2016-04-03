@@ -7,7 +7,9 @@ package musicplayer;
 
 /**
  *
- * @author Metteora
+ * @author Reynaldi Ananda Pane
+ * 1301144099
+ * IF-38-09
  */
 public class Driver {
     public static void main(String[] args) {
