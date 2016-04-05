@@ -14,7 +14,7 @@ import javax.swing.JButton;
 public class PlayerGUI extends javax.swing.JFrame {
 
     /**
-     * Creates new form PlayerGui
+     * Creates new form PlayerGUI
      */
     public PlayerGUI() {
         initComponents();
