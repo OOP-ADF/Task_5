@@ -21,9 +21,12 @@ public class Controller implements ActionListener {
     public Controller(){
         app = new Application();
         view = new PlayerGui();
-        view.setVisible(true);
-        view.setListMusic(this);
         view.setListMusic(app.getMusicList());
+        
+        view.addListener(this);
+        view.setVisible(true);
+        
+        
     }
     @Override
     public void actionPerformed(ActionEvent ae) {
@@ -31,7 +34,7 @@ public class Controller implements ActionListener {
         try{
             if(source.equals(view.getBtnAdd())){
                 JFileChooser fc = new JFileChooser();
-                FileNameExtenxionFilter filter = new FileNameExtensionFilter("MP3 FILES","mp3","mp3");
+                FileNameExtensionFilter filter = new FileNameExtensionFilter("MP3 FILES","mp3","mp3");
                 fc.setFileFilter(filter);
                 int returnVal = fc.showOpenDialog(view);
                 if (returnVal == JFileChooser.APPROVE_OPTION){

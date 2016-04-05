@@ -189,16 +189,16 @@ public class PlayerGui extends javax.swing.JFrame {
         return btnStop;
     }
     public void setListMusic(String[] musicList){
-        listMusic.setListData(musicList);
+        jList.setListData(musicList);
     }
     public void setTxFieldPlaying(String filename){
         txFieldPlaying.setText(filename);
     }
     public int getSelectedMusic(){
-        if(listMusic.getSelectedIndex()== -1){
+        if(jList.getSelectedIndex()== -1){
             throw new IllegalStateException("Please select any music");
             }
-        listMusic.getSelectedIndex();
+        return jList.getSelectedIndex();
     }
     public void addListener(ActionListener e){
         btnAdd.addActionListener(e);
