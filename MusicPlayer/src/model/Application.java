@@ -85,7 +85,7 @@ public class Application {
             } catch (FileNotFoundException exc) {
                 throw new IllegalStateException("File "+filepath+" not found");
             } catch (JavaLayerException exc) {
-                throws new IllegalStateException("ERROR while playing file");
+                throw new IllegalStateException("ERROR while playing file");
             }
         }
     }
