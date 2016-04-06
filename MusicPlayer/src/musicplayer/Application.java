@@ -9,7 +9,7 @@ import javazoom.jl.decoder.JavaLayerException;
 
 /**
  *
- * @author Thoriq
+ * @author Akbar
  */
 public class Application {
 
@@ -79,9 +79,9 @@ public class Application {
                 player = new Player(fis);
                 player.play();
             } catch (FileNotFoundException exc) {
-                throw new IllegalStateException("File " + filepath + " not Found");
+                throw new IllegalStateException("File not Found");
             } catch (JavaLayerException javaLayerException) {
-                throw new IllegalStateException("ERROR while playing file ");
+                throw new IllegalStateException("ERROR");
             }
         }
     }

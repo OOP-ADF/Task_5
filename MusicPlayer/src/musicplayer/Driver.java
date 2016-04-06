@@ -2,7 +2,7 @@ package musicplayer;
 
 /**
  *
- * @author Thoriq
+ * @author Akbar
  */
 public class Driver {
     
