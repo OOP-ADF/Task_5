@@ -59,7 +59,7 @@ public class Application {
     }
     
     public void prev() {
-        if(nowPlaying<musicList.size()+1) {
+        if(nowPlaying>0) {
             stop();
             play(nowPlaying-1);
         }
