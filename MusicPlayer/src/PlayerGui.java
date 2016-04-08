@@ -45,6 +45,7 @@ public class PlayerGui extends javax.swing.JFrame {
         btnNext = new javax.swing.JButton();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+        setTitle("Java Music Player");
 
         listMusic.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
         listMusic.setModel(new javax.swing.AbstractListModel() {

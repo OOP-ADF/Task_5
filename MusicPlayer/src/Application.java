@@ -29,7 +29,7 @@ public class Application {
         Player player;
 
         public ThreadPlayer (String filename) {
-            this.filepath = filepath;
+            this.filepath = filename;
         }
         
         @Override
