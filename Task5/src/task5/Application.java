@@ -13,7 +13,7 @@ import javazoom.jl.player.Player;
 
 /**
  *
- * @author IF-38-09_1301140299_Ichsan_Rachman_Ghifari
+ * @author [Ichsan_Rachman_Ghifari_1301140299_IF-38-09]
  */
 public class Application {
     private ArrayList<String> musicList;
