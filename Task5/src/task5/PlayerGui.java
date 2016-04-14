@@ -13,7 +13,7 @@ import javax.swing.JTextField;
 
 /**
  *
- * @author Rizma_Nurviarelda
+ * @author SulisTR_IF-38-09
  */
 public class PlayerGui extends javax.swing.JFrame {
 

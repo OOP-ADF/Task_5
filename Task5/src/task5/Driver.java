@@ -7,7 +7,7 @@ package task5;
 
 /**
  *
- * @author Rizma_Nurviarelda
+ * @author SulisTR_IF-38-09
  */
 public class Driver {
 

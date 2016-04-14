@@ -13,7 +13,7 @@ import javax.swing.filechooser.FileNameExtensionFilter;
 
 /**
  *
- * @author Rizma_Nurviarelda
+ * @author SulisTR_IF-38-09
  */
 public class Controller implements ActionListener{
     private Application app;
