@@ -7,7 +7,7 @@ package task5;
 
 /**
  *
- * @author SulisTR_IF-38-09
+ * @author SetyoH_IF-38-09
  */
 public class Task5 {
 
