@@ -1,7 +1,7 @@
 /*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
+Kevin Prakarsa B R
+1301144169 
+IF_38_09
  */
 package task5;
 
@@ -13,7 +13,7 @@ import javax.swing.filechooser.FileNameExtensionFilter;
 
 /**
  *
- * @author SetyoH_IF-38-09
+ * @author
  */
 public class Controller implements ActionListener{
     private Application app;
