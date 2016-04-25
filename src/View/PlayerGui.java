@@ -9,7 +9,7 @@ import java.awt.event.ActionListener;
 
 /**
  *
- * @author NANON
+ * @author Adrian G Nurcahyo
  */
 public class PlayerGui extends javax.swing.JFrame {
 
