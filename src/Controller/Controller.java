@@ -74,6 +74,6 @@ public class Controller implements ActionListener{
         }
         } catch (HeadlessException e){
             JOptionPane.showMessageDialog(view, e.getMessage());
+        }
     }
-}
 }

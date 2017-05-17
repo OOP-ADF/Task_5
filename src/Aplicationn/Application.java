@@ -79,6 +79,6 @@ public class Application {
             throw new IllegalStateException("ERROR while playing file ");
         }
     }
-    }
+  }
 }
 
