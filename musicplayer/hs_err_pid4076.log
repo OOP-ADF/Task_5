@@ -1,0 +1,123 @@
+#
+# A fatal error has been detected by the Java Runtime Environment:
+#
+#  Internal Error (virtualspace.cpp:125), pid=4076, tid=3144
+#  fatal error: os::release_memory failed
+#
+# JRE version:  (7.0_80-b15) (build )
+# Java VM: Java HotSpot(TM) Client VM (24.80-b11 mixed mode windows-x86 )
+# Failed to write core dump. Minidumps are not enabled by default on client versions of Windows
+#
+# If you would like to submit a bug report, please visit:
+#   http://bugreport.java.com/bugreport/crash.jsp
+#
+
+---------------  T H R E A D  ---------------
+
+Current thread (0x006dc400):  JavaThread "Unknown thread" [_thread_in_vm, id=3144, stack(0x01820000,0x01870000)]
+
+Stack: [0x01820000,0x01870000],  sp=0x0186f410,  free space=317k
+Native frames: (J=compiled Java code, j=interpreted, Vv=VM code, C=native code)
+V  [jvm.dll+0x192384]
+V  [jvm.dll+0x18b9f6]
+V  [jvm.dll+0x1678ec]
+V  [jvm.dll+0x167dab]
+V  [jvm.dll+0x8ad36]
+V  [jvm.dll+0x88776]
+V  [jvm.dll+0x8748e]
+V  [jvm.dll+0x919d3]
+V  [jvm.dll+0x141324]
+V  [jvm.dll+0x163e1c]
+V  [jvm.dll+0xcaaaf]
+C  [jli.dll+0x12eb]
+C  [jli.dll+0x1d5d]
+C  [jli.dll+0xc0d2]
+C  [jli.dll+0xc15c]
+C  [kernel32.dll+0x51174]
+C  [ntdll.dll+0x5b3f5]
+C  [ntdll.dll+0x5b3c8]
+
+
+---------------  P R O C E S S  ---------------
+
+Java Threads: ( => current thread )
+
+Other Threads:
+
+=>0x006dc400 (exited) JavaThread "Unknown thread" [_thread_in_vm, id=3144, stack(0x01820000,0x01870000)]
+
+VM state:not at safepoint (not fully initialized)
+
+VM Mutex/Monitor currently owned by a thread: None
+
+GC Heap History (0 events):
+No events
+
+Deoptimization events (0 events):
+No events
+
+Internal exceptions (0 events):
+No events
+
+Events (0 events):
+No events
+
+
+Dynamic libraries:
+0x001a0000 - 0x001a6000 	C:\Program Files\Java\jdk1.7.0_80\bin\javac.exe
+0x77070000 - 0x771ac000 	C:\Windows\SYSTEM32\ntdll.dll
+0x76820000 - 0x768f4000 	C:\Windows\system32\kernel32.dll
+0x75320000 - 0x7536a000 	C:\Windows\system32\KERNELBASE.dll
+0x6ec80000 - 0x6ecbc000 	C:\Program Files\AVAST Software\Avast\snxhk.dll
+0x6ea30000 - 0x6ea57000 	C:\Program Files\Java\jdk1.7.0_80\bin\jli.dll
+0x76ca0000 - 0x76d40000 	C:\Windows\system32\ADVAPI32.dll
+0x759e0000 - 0x75a8c000 	C:\Windows\system32\msvcrt.dll
+0x76900000 - 0x76919000 	C:\Windows\SYSTEM32\sechost.dll
+0x76920000 - 0x769c1000 	C:\Windows\system32\RPCRT4.dll
+0x74120000 - 0x742be000 	C:\Windows\WinSxS\x86_microsoft.windows.common-controls_6595b64144ccf1df_6.0.7600.16385_none_421189da2b7fabfc\COMCTL32.dll
+0x75aa0000 - 0x75aee000 	C:\Windows\system32\GDI32.dll
+0x76fa0000 - 0x77069000 	C:\Windows\system32\USER32.dll
+0x77200000 - 0x7720a000 	C:\Windows\system32\LPK.dll
+0x76c00000 - 0x76c9d000 	C:\Windows\system32\USP10.dll
+0x77240000 - 0x77297000 	C:\Windows\system32\SHLWAPI.dll
+0x63930000 - 0x639ef000 	C:\Program Files\Java\jdk1.7.0_80\bin\MSVCR100.dll
+0x75700000 - 0x7571f000 	C:\Windows\system32\IMM32.DLL
+0x76740000 - 0x7680c000 	C:\Windows\system32\MSCTF.dll
+0x6e3c0000 - 0x6e47f000 	C:\Program Files\Java\jdk1.7.0_80\jre\bin\msvcr100.dll
+0x62d60000 - 0x630eb000 	C:\Program Files\Java\jdk1.7.0_80\jre\bin\client\jvm.dll
+0x711f0000 - 0x711f7000 	C:\Windows\system32\WSOCK32.dll
+0x771c0000 - 0x771f5000 	C:\Windows\system32\WS2_32.dll
+0x771b0000 - 0x771b6000 	C:\Windows\system32\NSI.dll
+0x73620000 - 0x73652000 	C:\Windows\system32\WINMM.dll
+0x76810000 - 0x76815000 	C:\Windows\system32\PSAPI.DLL
+0x73b70000 - 0x73b7c000 	C:\Program Files\Java\jdk1.7.0_80\jre\bin\verify.dll
+0x73010000 - 0x73031000 	C:\Program Files\Java\jdk1.7.0_80\jre\bin\java.dll
+0x72fa0000 - 0x72fb3000 	C:\Program Files\Java\jdk1.7.0_80\jre\bin\zip.dll
+0x710f0000 - 0x711db000 	C:\Windows\system32\dbghelp.dll
+
+VM Arguments:
+jvm_args: -Dapplication.home=C:\Program Files\Java\jdk1.7.0_80 -Xms8m 
+java_command: com.sun.tools.javac.Main -d E:\KULIAH\TINGKAT 2\SEMESTER 4\New folder\PRAKTIKUM PBO\TASK-5\Task_5\musicplayer\build\classes -classpath E:\KULIAH\TINGKAT 2\SEMESTER 4\New folder\PRAKTIKUM PBO\TASK-5\Task_5\musicplayer\build\classes -sourcepath E:\KULIAH\TINGKAT 2\SEMESTER 4\New folder\PRAKTIKUM PBO\TASK-5\Task_5\musicplayer\src -target 1.7 -encoding UTF-8 -g -processorpath E:\KULIAH\TINGKAT 2\SEMESTER 4\New folder\PRAKTIKUM PBO\TASK-5\Task_5\musicplayer\build\empty -s E:\KULIAH\TINGKAT 2\SEMESTER 4\New folder\PRAKTIKUM PBO\TASK-5\Task_5\musicplayer\build\generated-sources\ap-source-output -source 1.7 E:\KULIAH\TINGKAT 2\SEMESTER 4\New folder\PRAKTIKUM PBO\TASK-5\Task_5\musicplayer\src\musicplayer\Application.java
+Launcher Type: SUN_STANDARD
+
+Environment Variables:
+PATH=C:\oraclexe\app\oracle\product\10.2.0\server\bin;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\FPC\2.6.4\bin\i386-Win32;C:\Program Files\Java\jdk1.7.0_80\bin
+USERNAME=Ferawidya
+OS=Windows_NT
+PROCESSOR_IDENTIFIER=x86 Family 6 Model 23 Stepping 10, GenuineIntel
+
+
+
+---------------  S Y S T E M  ---------------
+
+OS: Windows 7 Build 7600 
+
+CPU:total 2 (2 cores per cpu, 1 threads per core) family 6 model 23 stepping 10, cmov, cx8, fxsr, mmx, sse, sse2, sse3, ssse3, tsc
+
+Memory: 4k page, physical 975800k(64380k free), swap 3429084k(581320k free)
+
+vm_info: Java HotSpot(TM) Client VM (24.80-b11) for windows-x86 JRE (1.7.0_80-b15), built on Apr 10 2015 13:33:35 by "java_re" with unknown MS VC++:1600
+
+time: Wed Apr 06 00:12:28 2016
+elapsed time: 12 seconds
+
