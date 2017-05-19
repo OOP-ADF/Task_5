@@ -1,0 +1,4 @@
+javazoom.jl.decoder.LayerIIDecoder$SubbandLayer2
+javazoom.jl.decoder.LayerIIDecoder$SubbandLayer2Stereo
+javazoom.jl.decoder.LayerIIDecoder
+javazoom.jl.decoder.LayerIIDecoder$SubbandLayer2IntensityStereo
